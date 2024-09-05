@@ -1,6 +1,6 @@
 # Knowledge Distillation-based Unsupervised Domain Adaptation for Improved Medical Image Segmentation
 
-![Thesis Image](image.png)
+![Thesis Image](framework.png)
 
 ## Overview
 
@@ -9,8 +9,8 @@ This repository provides a summary of the thesis titled **"Knowledge Distillatio
 ## Key Contributions
 
 1. **Datasets**:
-   - **2D Datasets**: Utilized datasets such as Drishti-GS, RIM-ONE-R3, REFUGE Source-1, and REFUGE Source-2. These datasets provide pixel-level annotations for optic cup (OC) and optic disc (OD) in retinal images, captured using various scanners.
-   - **3D Dataset**: Employed the BraTS2021 dataset, including multi-parametric MRI scans in NIfTI format. Focused on T2 and FLAIR volumes for domain adaptation tasks.
+   - **2D Datasets**: Utilized datasets such as **Drishti-GS, RIM-ONE-R3, REFUGE Source-1, and REFUGE Source-2**. These datasets provide pixel-level annotations for optic cup (OC) and optic disc (OD) in retinal images, captured using various scanners.
+   - **3D Dataset**: Employed the **BraTS2021** dataset, including multi-parametric MRI scans in NIfTI format. Focused on T2 and FLAIR volumes for domain adaptation tasks.
 
 2. **Image Processing Techniques**:
    - **2D Images**: Applied Contrast Limited Adaptive Histogram Equalization (CLAHE) to enhance contrast and brightness while preserving color information.
