@@ -21,12 +21,12 @@ This repository provides a summary of the thesis titled **"Knowledge Distillatio
 
 4. **Domain Adaptation Framework**:
    - **Knowledge Distillation**: Utilizes knowledge transfer to improve segmentation performance by distilling knowledge from the source domain to the target domain. Incorporates source loss and domain shift loss, leveraging **Kullback-Leibler (KL) divergence for domain shift minimization**.
-
+<!--
 ## Implementation Details
 
 - **2D Image Processing**: Images and masks resized to (256, 256, 3) and (256, 256) respectively. CLAHE applied to Y channel of YCrCb color space for contrast enhancement.
 - **3D Image Processing**: Cropped images from (240, 240, 155) to (140, 170, 155) to reduce background pixels. Histogram matching used to align pixel intensities.
-
+-->
 ## Note
 
 We are currently working on a research paper based on this project. Once the paper is published, we will upload and disclose the code associated with this project. 
